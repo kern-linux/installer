@@ -21,7 +21,7 @@ Transforms a minimal Arch Linux installation into a complete Kern environment:
 ## Installation
 
 ```bash
-curl -fsSL https://getkern.sh | bash
+curl -fsSL https://getkern.sh/install.sh | bash
 ```
 
 ## What Gets Installed
@@ -42,7 +42,7 @@ curl -fsSL https://getkern.sh | bash
 If you prefer to review the script before running:
 
 ```bash
-curl -fsSL https://getkern.sh -o install-kern.sh
+curl -fsSL https://getkern.sh/install.sh -o install-kern.sh
 less install-kern.sh
 bash install-kern.sh
 ```
@@ -53,7 +53,7 @@ Early development. Currently supports Arch Linux only. See [roadmap](https://git
 
 ## Documentation
 
-See the [Kern vision document](https://github.com/kern-linux/docs) for philosophy and architecture details.
+See the [Kern vision document](https://kern-linux.github.io) for philosophy and architecture details.
 
 ## License
 
